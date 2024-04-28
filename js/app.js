@@ -667,7 +667,9 @@
                         callback("us");
                     }));
                 },
-                utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
+                utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/21.2.7/js/utils.js",
+                showSelectedDialCode: true,
+                countrySearch: true
             });
         }
     }));
