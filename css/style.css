@@ -611,6 +611,7 @@ table {
 }
 .hero {
   max-width: 100%;
+  padding-top: clamp(3.438rem,2.95rem + 2.44vw,5rem);
   position: relative;
   display: flex
 }
@@ -1027,7 +1028,8 @@ table {
   top: 0;
   left: 0;
   z-index: 100;
-  background-color: #fff
+  background-color: #fff;
+  min-height: clamp(3.438rem,2.95rem + 2.44vw,5rem)
 }
 .header__container {
   padding-top: .625em;
@@ -1966,9 +1968,6 @@ table {
 }
 .box-card__item:not(:last-child) {
   margin-bottom: 1.25em
-}
-.page--speaking {
-  padding-top: 5em
 }
 .page__block-qoute {
   max-width: 92.8125em;

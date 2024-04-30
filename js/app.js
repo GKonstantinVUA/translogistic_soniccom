@@ -508,7 +508,7 @@
         if (getHash()) {
             let goToHash;
             if (document.querySelector(`#${getHash()}`)) goToHash = `#${getHash()}`; else if (document.querySelector(`.${getHash()}`)) goToHash = `.${getHash()}`;
-            goToHash ? gotoblock_gotoBlock(goToHash, true, 600, 20) : null;
+            goToHash ? gotoblock_gotoBlock(goToHash, true, 600, 0) : null;
         }
     }
     setTimeout((() => {
