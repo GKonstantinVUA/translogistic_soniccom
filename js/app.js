@@ -468,7 +468,7 @@
                 if (targetElement.closest("[data-goto]")) {
                     e.preventDefault();
                     const gotoLink = targetElement.closest("[data-goto]");
-                    const gotoLinkSelector = gotoLink.dataset.goto ? gotoLink.dataset.goto : "";
+                    let gotoLinkSelector = gotoLink.dataset.goto ? gotoLink.dataset.goto : "";
                     const noHeader = gotoLink.hasAttribute("data-goto-header") ? true : false;
                     const onAnotherPage = gotoLink.hasAttribute("data-goto-page") ? true : false;
                     const gotoSpeed = gotoLink.dataset.gotoSpeed ? gotoLink.dataset.gotoSpeed : 500;
@@ -481,7 +481,16 @@
                             document.documentElement.classList.contains("menu-open") ? menuClose() : null;
                         }
                     } else if (onAnotherPage) {
-                        const targetBlockElement = document.querySelector(gotoLinkSelector);
+                        let targetBlockElement;
+                        targetBlockElement = document.querySelector(gotoLinkSelector);
+                        if (!targetBlockElement) {
+                            targetBlockElement = document.querySelector(`.${gotoLinkSelector}`);
+                            if (targetBlockElement) gotoLinkSelector = `.${gotoLinkSelector}`;
+                        }
+                        if (!targetBlockElement) {
+                            targetBlockElement = document.querySelector(`#${gotoLinkSelector}`);
+                            if (targetBlockElement) gotoLinkSelector = `#${gotoLinkSelector}`;
+                        }
                         if (targetBlockElement) gotoblock_gotoBlock(gotoLinkSelector, noHeader, gotoSpeed, offsetTop); else {
                             let targetLink = gotoLink.href;
                             window.location.href = targetLink;
@@ -508,7 +517,7 @@
         if (getHash()) {
             let goToHash;
             if (document.querySelector(`#${getHash()}`)) goToHash = `#${getHash()}`; else if (document.querySelector(`.${getHash()}`)) goToHash = `.${getHash()}`;
-            goToHash ? gotoblock_gotoBlock(goToHash, true, 600, 0) : null;
+            goToHash ? gotoblock_gotoBlock(goToHash, true, 600, 20) : null;
         }
     }
     setTimeout((() => {
