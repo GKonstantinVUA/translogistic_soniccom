@@ -471,8 +471,8 @@ table {
   color: #fff;
   line-height: 1.5;
   border-radius: .5em;
-  border: .0625em solid #0086c9;
-  background: #0086c9;
+  border: .0625em solid #007cbd;
+  background: #007cbd;
   box-shadow: 0 .0625em .125em 0 rgba(16,24,40,.05);
   padding: .375em 0;
   transition: all .3s ease-in
@@ -486,8 +486,8 @@ table {
   color: #fff;
   line-height: 1.5;
   border-radius: .5em;
-  border: .0625em solid #0086c9;
-  background: #0086c9;
+  border: .0625em solid #007cbd;
+  background: #007cbd;
   box-shadow: 0 .0625em .125em 0 rgba(16,24,40,.05);
   padding: .375em 0;
   transition: all .3s ease-in
@@ -731,7 +731,7 @@ table {
   bottom: 0;
   width: 100%;
   height: 0;
-  background: #0086c9;
+  background: #007cbd;
   z-index: -1;
   border-radius: 50% 50% 0 0
 }
@@ -750,7 +750,7 @@ table {
   top: 0;
   width: 100%;
   height: 170%;
-  background: #0086c9;
+  background: #007cbd;
   z-index: -1;
   border-radius: 0 0 100% 100%
 }
@@ -829,7 +829,7 @@ table {
 .cell__iconfont-large {
   font-family: IconFont;
   font-size: 1.5rem;
-  color: #0086c9
+  color: #007cbd
 }
 .cell__title {
   color: #101828;
@@ -950,7 +950,7 @@ table {
 .box-card__iconfont-large {
   font-family: IconFont;
   font-size: 1.5rem;
-  color: #0086c9
+  color: #007cbd
 }
 .box-card__title {
   color: #101828;
@@ -989,7 +989,7 @@ table {
   content: "i";
   font-family: IconFont;
   font-size: .75rem;
-  color: #0086c9;
+  color: #007cbd;
   background-color: #e0f2fe;
   height: 1.75em;
   border-radius: 50%
@@ -1020,7 +1020,7 @@ table {
 }
 .menu__link.active {
   font-weight: 700;
-  color: #0086c9
+  color: #007cbd
 }
 .header {
   position: fixed;
@@ -1116,7 +1116,7 @@ table {
   line-height: 1.5;
   padding: .625em 1em;
   border-radius: .5em;
-  border: .0625em solid #0086c9;
+  border: .0625em solid #007cbd;
   min-width: 7.875em
 }
 .menu__btn-access--login-in {
@@ -1127,7 +1127,7 @@ table {
 }
 .menu__btn-access--login-in::before {
   transition: all .4s ease-in-out;
-  background: #0086c9;
+  background: #007cbd;
   content: "";
   z-index: -1;
   position: absolute;
@@ -1143,7 +1143,7 @@ table {
 }
 .menu__btn-access--get-quote::before {
   transition: all .4s ease-in-out;
-  background: #0086c9;
+  background: #007cbd;
   content: "";
   z-index: -1;
   position: absolute;
@@ -1424,7 +1424,7 @@ table {
 .dashboard__iconfont-large {
   font-family: IconFont;
   font-size: 1.5rem;
-  color: #0086c9
+  color: #007cbd
 }
 .dashboard__subtitle {
   color: #101828;
@@ -1541,7 +1541,7 @@ table {
   bottom: 0;
   width: 100%;
   height: 0;
-  background: #0086c9;
+  background: #007cbd;
   z-index: -1;
   border-radius: 50% 50% 0 0
 }
@@ -1559,7 +1559,7 @@ table {
   top: 0;
   width: 100%;
   height: 170%;
-  background: #0086c9;
+  background: #007cbd;
   z-index: -1;
   border-radius: 0 0 100% 100%
 }
@@ -1631,7 +1631,7 @@ table {
   height: 100%
 }
 .cell-value__indicator {
-  color: #0086c9;
+  color: #007cbd;
   text-align: center;
   font-size: clamp(2.25rem,1.821rem + 2.14vw,3.75rem);
   font-weight: 600;
@@ -1921,7 +1921,7 @@ table {
 .box-card__iconfont-large {
   font-family: IconFont;
   font-size: 1.5rem;
-  color: #0086c9
+  color: #007cbd
 }
 .box-card__title {
   color: #101828;
@@ -1961,7 +1961,7 @@ table {
   content: "g";
   font-family: IconFont;
   font-size: .75rem;
-  color: #0086c9;
+  color: #007cbd;
   background-color: #e0f2fe;
   height: 1.75em;
   border-radius: 50%
@@ -2430,8 +2430,8 @@ table {
   font-weight: 600;
   line-height: 1.5;
   border-radius: .5em;
-  border: .0625em solid #0086c9;
-  background: #0086c9;
+  border: .0625em solid #007cbd;
+  background: #007cbd;
   box-shadow: 0 .0625em .125em 0 rgba(16,24,40,.05);
   padding: .75em 0;
   transition: all .3s ease-in
@@ -3007,7 +3007,7 @@ table {
     position: absolute;
     width: 100%;
     height: .125rem;
-    background-color: #0086c9
+    background-color: #007cbd
   }
   .icon-menu span {
     width: 80%
@@ -3132,7 +3132,7 @@ table {
     width: 100%
   }
   .menu__btn-access {
-    background: #0086c9;
+    background: #007cbd;
     color: #fff
   }
 }
@@ -3162,7 +3162,7 @@ table {
 }
 @media (max-width:26.8125em) {
   .button-group__btn-jump {
-    background: #0086c9;
+    background: #007cbd;
     color: #fff
   }
   .button-group--setup {
@@ -3207,7 +3207,7 @@ table {
     cursor: pointer
   }
   .popup__close-form:hover {
-    background: #0086c9
+    background: #007cbd
   }
   .client-blank__link-form-jump {
     cursor: pointer
@@ -3246,7 +3246,7 @@ table {
     cursor: pointer
   }
   .hero__button-link-jump--quote:hover {
-    color: #0086c9
+    color: #007cbd
   }
   .button-group__btn-jump--ship-us {
     cursor: pointer
@@ -3283,7 +3283,7 @@ table {
     cursor: pointer
   }
   .menu__item:hover .menu__link {
-    color: #0086c9
+    color: #007cbd
   }
   .menu__item {
     cursor: pointer
@@ -3291,7 +3291,7 @@ table {
   .menu__item:hover .menu__link--parent::after {
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    color: #0086c9
+    color: #007cbd
   }
   .menu__btn-access--login-in {
     cursor: pointer
@@ -3316,7 +3316,7 @@ table {
   }
   .submenu__item:hover {
     color: #fff;
-    background-color: #0086c9;
+    background-color: #007cbd;
     width: 100%
   }
   .items__pic {
